@@ -20,8 +20,8 @@ header {
 }
 
 header img {
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
     max-width: 600px;
     padding-bottom: 24px;
 }
