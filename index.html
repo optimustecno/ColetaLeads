@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="og:image" content="https://www.optimusinttec.com.br/api/og">
+    <meta property="og:type" content="website">
+    <meta property="twitter:image" content="https://www.optimusinttec.com.br/api/og">
+    <link rel="stylesheet" href="./estilo.css" />
+    <meta property="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <meta property="og:title" content="OPTIMUS | Otimize seu Atendimento" />
+    <meta property="og:description" content="OPTIMUS | Otimize seu Atendimento" />
+    <meta name="twitter:title" content="OPTIMUS | Otimize seu Atendimento" />
+    <meta name="twitter:description" content="OPTIMUS | Otimize seu Atendimento" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPTIMUS | Otimize seu Atendimento</title>
+</head>
+<body>
+    <header>
+        <h1>Mais agilidade no atendimento do seu restaurante</h1>
+        <p>Controle total da sua operação, pedidos e financeiro em um único sistema</p>
+    </header>
+
+    <section class="container">
+        <div class="features">
+            <div class="card">
+                <h3>📱 Atendimento rápido</h3>
+                <p>Garçons lançam pedidos direto pelo celular, sem papel e sem retrabalho.</p>
+            </div>
+            <div class="card">
+                <h3>📊 Gestão completa</h3>
+                <p>Controle pedidos, caixa, entregas e toda a operação do seu restaurante em um só lugar.</p>
+            </div>
+            <div class="card">
+                <h3>🔗 Integrações</h3>
+                <p>Centralize pedidos do iFood, Uai Rango, LeCard e outros apps sem precisar relançar manualmente.</p>
+            </div>
+            <div class="card">
+                <h3>💰 Controle financeiro</h3>
+                <p>Tenha visão clara do seu faturamento e tome decisões mais inteligentes.</p>
+            </div>
+            <div class="card">
+                <h3>💵 Controle de caixa</h3>
+                <p>Controle de forma fácil os seus caixas. Inclusive por entregador!</p>
+            </div>
+            <div class="card">
+                <h3>💳 Integração com Pin-Pad (TEF)</h3>
+                <p>Elimine falhas no recebimento com uma solução integrada com Pin Pads.</p>
+            </div>
+            <div class="card">
+                <h3>⚙️ Atualizações constantes</h3>
+                <p>Sistema que não para. Estamos sempre evoluindo com novas funcionalidades e melhorias.</p>
+            </div>
+            <div class="card">
+                <h3>🤝 Suporte próximo</h3>
+                <p>Atendimento rápido e humanizado para te ajudar no dia a dia.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h1>Quer conhecer na prática?</h1>
+                <p>Deixe seus dados e fale com um especialista</p>
+                <form id="leadForm">
+                    <input id="restaurante" type="text" placeholder="Seu Restaurante" required>
+                    <input type="text" id="empresa_fake" style="display:none">
+                    <input id="nome" type="text" placeholder="Seu nome" required minlength="2">
+                    <input id="email" type="email" placeholder="Seu e-mail" required>
+                    <input id="telefone" type="tel" placeholder="Seu telefone" required pattern="[0-9\s\-\(\)]{8,}">
+                    <button type="submit">Quero conhecer o sistema</button>
+                    <div id="toast" class="toast"></div>
+                </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <img src="./assets/logo.svg" alt="logo empresarial" />
+        © 2026 - Optimus Inteligência e Tecnologia
+    </footer>
+    <script src="./lead.js"></script>
+</body>
+
+</html>
